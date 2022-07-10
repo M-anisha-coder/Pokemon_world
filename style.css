@@ -1,0 +1,119 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+   background-color: #FF8D29;
+}
+.navbar{
+    background-color: #FFCD38;
+    height: 80px;
+}
+nav{
+    display: flex;
+    
+}
+nav ul{
+    margin-left: 30%;
+}
+nav ul li {
+    float:left;
+    list-style-type: none;
+    margin-left: 80px;
+    margin-top: 30px;
+    font-size:larger;
+    font-weight: 600;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(19, 19, 173)  ;
+}
+nav img {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.about{
+    display: flex;
+    background-color: #4176ff;
+    height: 500px;
+}
+.about img{
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.intro{
+    width: 60%;
+    margin-left: 100px;
+    margin-top:150px ;
+   
+}
+.intro h1{
+    color: rgb(255, 255, 9) ;
+    text-align:center;
+
+    
+}
+.intro p{
+
+    font-style:italic;
+    margin-top: 15px;
+    font-size: larger;
+    color:  white ;
+    font-weight: 800;
+    text-align: center;
+    
+}
+
+
+
+.act{
+    width: 250px;
+    height: 350px;
+    background-color:#FFCD38  ;
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.act img{
+    border-radius: 50%;
+    margin-left: 50px;
+    border: 3px solid white;
+    margin-top: 30px;
+    
+}
+.act button{
+    background-color: blue;
+    outline: none;
+    color: #fff;
+    padding: 8px 22px;
+    border-radius: 20px;
+    border:  none;
+    font-size: 14px;
+    transition: all ease 0.3s;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 120px;
+}
+.im{
+    height: 150px;
+    background-color: blue;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+}
+.im h2{
+    color :blue;
+    margin-top: 8px;
+    margin-left: 30%;
+}
+.pokemon h1{
+   
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+}
